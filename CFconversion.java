@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+//Program that converts Celsius to Fahrenheit and vice versa
 public class CFconversion {
     public static void main(String[] Args){
         double temp;
