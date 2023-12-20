@@ -2,7 +2,6 @@ import java.util.Scanner;
 import java.lang.Math;
 
 //Program that calculates the square, cube, and fourth power of a given number
-
 public class NumPowers {
     public static void main(String[] Args){
         int num;
