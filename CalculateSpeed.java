@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 //Program that calculates the speed in meters per second, kilometers per hour, and miles per hour given distance in meters, hours, minutes, and seconds
-
 public class CalculateSpeed {
     public static void main(String[] Args){
         double second, minute, hour;
