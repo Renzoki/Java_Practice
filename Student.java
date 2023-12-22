@@ -22,10 +22,10 @@ public class Student {
 
     public void addGrade(double grade){
         if(grade >= 0 && grade <= 100){
-            this.student_Grades = grade;
+            System.out.println("\nGrade: " + grade);
         }
         else{
-            System.out.println("\nInvalid grade\n");
+            System.out.println("\nInvalid grade!");
         }
     }
 }
