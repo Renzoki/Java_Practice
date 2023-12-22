@@ -20,8 +20,10 @@ public class Employee {
         return employee_ID;
     }
 
+    public String getName(){ return employee_name; }
+
     public void getSalary(){
-        System.out.println(employee_name + "'s salary is " + employee_salary);
+        System.out.println("Salary: " + employee_salary);
     }
 }
 
