@@ -39,21 +39,26 @@ public class Controller {
         if(choice == 1) {
             Minimum min = new Minimum(A, length, width);
             System.out.println("\nMINIMUM: " + min.getMinimum(length, width));
-
         } else if (choice == 2) {
             Maximum max = new Maximum(A, length, width);
             System.out.println("\nMAXIMUM: " + max.getMaximum(length, width));
-
         } else if (choice == 3) {
             Average ave = new Average(A, length, width);
             System.out.println("\nAVERAGE: " + ave.getAverage(length, width));
-        } /*else if (choice == 4) {
-
+        } else if (choice == 4) {
+            Sum sum = new Sum(A, length, width);
+            System.out.println("\nSUM: " + sum.getSum());
         } else if (choice == 5) {
-
+            Difference dif = new Difference(length, width);
+            System.out.println("\nDIFFERENCE: " + dif.getDif());
         } else if (choice == 6) {
+            SelectionSort SelSort = new SelectionSort(A, length, width);
 
-        } else if (choice == 7) {
+            System.out.println("\nSORTED ARRAY: ");
+            DisplayFunction(SelSort.sortArray(length, width), length, width);
+        } /*else if (choice == 7) {
+
+        } else if (choice == 8) {
 
         } */
     }
