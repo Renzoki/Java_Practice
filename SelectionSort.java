@@ -1,5 +1,5 @@
 public class SelectionSort {
-    private int[][] A;
+    private final int[][] A;
 
     public SelectionSort(int[][] A, int length, int width){
         this.A = new int[length][width];
