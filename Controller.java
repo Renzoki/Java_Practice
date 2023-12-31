@@ -53,12 +53,14 @@ public class Controller {
             System.out.println("\nDIFFERENCE: " + dif.getDif());
         } else if (choice == 6) {
             SelectionSort SelSort = new SelectionSort(A, length, width);
-
             System.out.println("\nSORTED ARRAY: ");
             DisplayFunction(SelSort.sortArray(length, width), length, width);
-        } /*else if (choice == 7) {
-
-        } else if (choice == 8) {
+        } else if (choice == 7) {
+            LinearSearch LinSer = new LinearSearch(A, length, width);
+            System.out.print("\nInput key: ");
+            int key = scan.nextInt();
+            LinSer.doSearch(length, width, key);
+        } /*else if (choice == 8) {
 
         } */
     }
