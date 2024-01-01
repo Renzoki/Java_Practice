@@ -36,33 +36,44 @@ public class Controller {
         System.out.println("\nARRAY: ");
         DisplayFunction(A, length, width);
 
+        //MINIMUM
         if(choice == 1) {
             Minimum min = new Minimum(A, length, width);
             System.out.println("\nMINIMUM: " + min.getMinimum(length, width));
+
+        //MAXIMUM
         } else if (choice == 2) {
             Maximum max = new Maximum(A, length, width);
             System.out.println("\nMAXIMUM: " + max.getMaximum(length, width));
+
+        //AVERAGE
         } else if (choice == 3) {
             Average ave = new Average(A, length, width);
             System.out.println("\nAVERAGE: " + ave.getAverage(length, width));
+
+        //SUM
         } else if (choice == 4) {
             Sum sum = new Sum(A, length, width);
             System.out.println("\nSUM: " + sum.getSum());
+
+        //DIFFERENCE
         } else if (choice == 5) {
             Difference dif = new Difference(length, width);
             System.out.println("\nDIFFERENCE: " + dif.getDif());
+
+        //SELECTION SORT
         } else if (choice == 6) {
             SelectionSort SelSort = new SelectionSort(A, length, width);
             System.out.println("\nSORTED ARRAY: ");
             DisplayFunction(SelSort.sortArray(length, width), length, width);
+
+        //LINEAR SEARCH
         } else if (choice == 7) {
             LinearSearch LinSer = new LinearSearch(A, length, width);
             System.out.print("\nInput key: ");
             int key = scan.nextInt();
             LinSer.doSearch(length, width, key);
-        } /*else if (choice == 8) {
-
-        } */
+        }
     }
 
     public static void DisplayFunction(int[][] A, int length, int width){

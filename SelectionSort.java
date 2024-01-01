@@ -21,7 +21,7 @@ public class SelectionSort {
                 }
 
                 if(min != j){
-                    Swap(A, i, j, min);
+                    Swap(A[i], j, min);
                 }
             }
         }
@@ -29,11 +29,10 @@ public class SelectionSort {
         return A;
     }
 
-    private void Swap(int[][] A, int i, int j, int min){
-        int tempVal = A[i][j];
-        A[i][j] = A[i][min];
-        A[i][min] = tempVal;
+    private void Swap(int[] row, int i, int j) {
+        int tempVal = row[i];
+        row[i] = row[j];
+        row[j] = tempVal;
     }
-
 
 }

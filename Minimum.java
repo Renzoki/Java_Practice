@@ -1,5 +1,5 @@
 public class Minimum {
-    private int[][] A; //2D array "A"
+    private final int[][] A; //2D array "A"
     private int i, j;
 
     public Minimum(int[][] A, int length, int width){

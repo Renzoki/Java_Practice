@@ -1,5 +1,5 @@
 public class Average {
-    private int[][] A;
+    private final int[][] A;
     private int i, j;
 
     public Average(int[][] A, int length, int width){

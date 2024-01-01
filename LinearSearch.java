@@ -1,5 +1,5 @@
 public class LinearSearch {
-    private int[][] A;
+    private final int[][] A;
 
     public LinearSearch(int[][] A, int length, int width){
         this.A = new int[length][width];
