@@ -10,7 +10,7 @@ public class NumPowers {
 
         System.out.print("Input number: ");
         num = scan.nextInt();
-
+        
         System.out.println("Square: " + Math.pow(num, 2));
         System.out.println("Cube: " + Math.pow(num, 3));
         System.out.println("Fourth Power: " + Math.pow(num, 4));
