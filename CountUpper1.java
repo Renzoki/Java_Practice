@@ -4,7 +4,7 @@ public class CountUpper1 {
         B = new char[length];
         System.arraycopy(A, 0, B, 0, A.length);
     }
-
+    
     public int getAmtOfUpper(){
         int amt = 0;
 
